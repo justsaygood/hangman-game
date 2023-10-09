@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Akzidenz;
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/akzidenz/AkzidenzGroteskPro-BoldEx.otf') format('opentype');
+    }
+    @font-face {
+        font-family: Akzidenz;
+        font-style: normal;
+        font-weight: 500;
+        src: url('/fonts/akzidenz/AkzidenzGroteskPro-Md.otf') format('opentype');
+    }
+    @font-face {
+        font-family: Akzidenz;
+        font-style: normal;
+        font-weight: 400;
+        src: url('/fonts/akzidenz/AkzidenzGroteskPro-Regular.otf') format('opentype');
+    }
+    html {
+        font-family: Akzidenz, sistem-ui, sans-serif;
+    }
+}
