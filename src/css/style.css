@@ -38,4 +38,21 @@
     .button-primary {
         @apply bg-slate-200 rounded-md font-medium px-5 py-2 dark:text-sky-200 dark:border-2 dark:bg-transparent dark:border-sky-200 dark:hover:bg-transparent dark:hover:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] hover:bg-slate-300;
     }
+
+    .mode-fake-checkbox {
+        @apply w-11 h-6 bg-gray-200  rounded-full dark:bg-gray-700 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border 
+        after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600;
+    }
+
+    .mode-text {
+        @apply ml-3 text-sm font-medium text-gray-900 dark:text-gray-300;
+    }
+
+    .placeholders-wrapper {
+        @apply flex flex-row;
+    }
+    
+    .letter {
+        @apply mx-2 text-3xl font-mono;
+    }
 }
